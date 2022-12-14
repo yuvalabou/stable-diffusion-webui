@@ -325,9 +325,9 @@ def load_model(checkpoint_info=None):
 
 
 def reload_model_weights(sd_model=None, info=None):
-    from modules import lowvram, devices, sd_hijack
+    from modules import lowvram, sd_hijack
     checkpoint_info = info or select_checkpoint()
- 
+
     if not sd_model:
         sd_model = shared.sd_model
 

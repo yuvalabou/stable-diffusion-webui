@@ -181,7 +181,7 @@ def clear_loaded_vae():
     loaded_vae_file = None
 
 def reload_vae_weights(sd_model=None, vae_file="auto"):
-    from modules import lowvram, devices, sd_hijack
+    from modules import lowvram, sd_hijack
 
     if not sd_model:
         sd_model = shared.sd_model

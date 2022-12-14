@@ -36,8 +36,6 @@ from modules import prompt_parser
 from modules.images import save_image
 from modules.sd_hijack import model_hijack
 from modules.sd_samplers import samplers, samplers_for_img2img
-import modules.textual_inversion.ui
-import modules.hypernetworks.ui
 from modules.generation_parameters_copypaste import image_from_url_text
 
 # this is a fix for Windows users. Without it, javascript files will be served with text/html content-type and the browser will not show any UI

@@ -6,7 +6,6 @@ import cv2
 import torch
 
 import modules.face_restoration
-import modules.shared
 from modules import shared, devices, modelloader
 from modules.paths import script_path, models_path
 

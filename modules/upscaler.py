@@ -6,7 +6,6 @@ import numpy as np
 import torch
 from PIL import Image
 
-import modules.shared
 from modules import modelloader, shared
 
 LANCZOS = (Image.Resampling.LANCZOS if hasattr(Image, 'Resampling') else Image.LANCZOS)

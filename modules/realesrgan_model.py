@@ -18,7 +18,6 @@ class UpscalerRealESRGAN(Upscaler):
         super().__init__()
         try:
             from basicsr.archs.rrdbnet_arch import RRDBNet
-            from realesrgan import RealESRGANer
             from realesrgan.archs.srvgg_arch import SRVGGNetCompact
             self.enable = True
             self.scalers = []

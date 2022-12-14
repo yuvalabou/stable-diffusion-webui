@@ -15,7 +15,6 @@ from modules.hypernetworks import hypernetwork
 from modules.processing import process_images, Processed, StableDiffusionProcessingTxt2Img
 from modules.shared import opts, cmd_opts, state
 import modules.shared as shared
-import modules.sd_samplers
 import modules.sd_models
 import re
 
